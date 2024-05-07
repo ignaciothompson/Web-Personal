@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "React.js",
+        "icon": "/icons/skills/react.svg",
+        "experience": "Tengo 2 años de experiencia trabajando con React.js para el desarrollo tanto web como de aplicaciones móviles."
+        
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "icon": "/icons/skills/javascript.svg",
+        "experience": "Tengo 3 años de experiencia utilizando JavaScript para el desarrollo web, enfocado en la creación de experiencias de usuario."
+    },
+    {
+        "id": 3,
+        "name": "TypeScript",
+        "icon": "/icons/skills/typescript.svg",
+        "experience": "Tengo 1 año de experiencia utilizando TypeScript para el desarrollo web, aplicaciones móviles y de escritorio, con el objetivo de mejorar el rendimiento y la eficiencia de las aplicaciones."
+    },
+    {
+        "id": 4,
+        "name": "CSS",
+        "icon": "/icons/skills/css.svg",
+        "experience": "Tengo 3 años de experiencia utilizando CSS para el desarrollo web y de aplicaciones móviles, logrando crear diseños atractivos y fáciles de usar para el usuario."
+    }, 
+    {
+        "id": 5,
+        "name": "HTML",
+        "icon": "/icons/skills/html.svg",
+        "experience": "Tengo 3 años de experiencia trabajando con HTML en el desarrollo de sitios web, aplicaciones móviles y aplicaciones de escritorio."
+    }
+]
+

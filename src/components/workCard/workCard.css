@@ -1,0 +1,115 @@
+.worksContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.workCard{
+    width: calc(50% - 50px);
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.5s ease, z-index 0s ease 0.5s; /* Adjust transition for transform */
+    position: relative;
+    z-index: 1; /* Ensure a base z-index is set */
+    transition-delay: 0.5s;
+}
+
+
+.workImageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.workImage{
+    width: 630px;
+    border-radius: 5px;
+}
+
+.workTitle{
+    margin: 5px 0px 10px 10px;
+}
+
+.sidebar{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 11;
+    right: -50%;
+    top: 0;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--primary-color);
+    opacity: 0;
+    visibility: hidden;
+    transition: right 0.5s ease, opacity 0.5s ease, visibility 0s linear 0.5s;
+}
+
+.workCard:hover .sidebar {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: right 0.5s ease, opacity 0.5s ease, visibility 0s linear 0s;
+}
+
+.workInfo{
+    margin-left: 10px;
+}
+
+.workTechList{
+    padding-left: 20px;
+}
+
+.workLinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workLink{
+    width: 100%;
+    margin-left: 20px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.workLinkIcon{
+    width: 16px;
+    margin-left: 10px;
+}
+
+.workLink:hover{
+    text-decoration: underline;
+}
+
+.moreWorks{
+    width: 98%;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    
+    p{
+        margin-left: 10px;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+
+

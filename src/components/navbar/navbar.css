@@ -1,0 +1,170 @@
+@import url('../../App.css');
+
+.navbar{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    transition: transform 1s ease-in;
+    z-index: 1111;
+}
+
+.navbarContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.navbarButtons{
+    display: flex;
+}
+
+.navbarButton{
+    width: fit-content;
+    padding: 15px 25px;
+    font-family: inherit;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarButton.primary{
+    width: calc(100px + 50px);
+    margin-right: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.navbarButton.primary:hover{
+    background-color: var(--secondary-color);
+}
+
+.navbarButton.primary:hover .buttonContent{
+    margin-right: 5px;
+    transform: translateX(5px);
+}
+
+.arrow{
+    width: 18px;
+    margin-right: 5px;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease-out;
+}
+
+.navbarButton.primary:hover .arrow{
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.point{
+    width: 5px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.navbarButton.primary:hover .point{
+    display: none;
+}
+
+.dots{
+    width: 20px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.navbarButton:hover .dots{
+    transform: rotate(-270deg);
+}
+
+
+/*Arrow to top styles*/
+.arrowTop{
+    width: 40px;
+    padding: 5px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.arrowTopBtn {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1rem;
+    color: #e0ffff;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.arrowTopBtn:active{
+    transform: scale(1.1);
+}
+.arrowTopBtn::before{
+    content: '';
+    position: absolute;
+    inset: -1px 18px;
+    background: var(--primary-color);
+    transition: 500ms;
+    animation: rotate 3s linear infinite;
+    z-index: -1;
+}
+.arrowTopBtn:hover::before{
+    inset: -1px;
+}
+.arrowTopBtn::after{
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: white;
+    z-index: -1;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.navbar.scrolled{
+    
+    .navbarTitle{
+        display: none;
+    }
+
+    .arrowTopBtn{
+        display: block;
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+
+
+
+
+

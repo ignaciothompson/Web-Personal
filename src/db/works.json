@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Web e-commerce Present",
+        "image": "/images/Present.png",
+        "technologies": ["React", "Typescript", "CSS", "API Managment"],
+        "description": "Pagina creada para la empresa Present por la cual se toman pedidos.",
+        "url": "https://present-rouge.vercel.app/",
+        "github": "https://github.com/ignaciothompson/Present"
+    },
+    {
+        "id": 2,
+        "name": "Redata",
+        "image": "/images/Redata.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "API Managment", "Configuración de sistema"],
+        "description": "Repositorio de datos abiertos de investigación de Uruguay, creado por la ANII.",
+        "url": "https://redata.anii.org.uy/",
+        "github": null
+    },
+    {
+        "id": 3,
+        "name": "Rick and Morty Wiki",
+        "image": "/images/Rick-and-Morty.png",
+        "technologies": ["React","JavaScript", "CSS", "Bootstrap", "API Management"],
+        "description": "Wiki de los personajes de Rick and Morty, con toda la informacion de cada uno de ellos.",
+        "url": "https://rick-and-morty-wiki-ivory.vercel.app/",
+        "github": "https://github.com/ignaciothompson/Rick-and-Morty-Wiki"
+    },
+    {
+        "id": 4,
+        "name": "Web Personal",
+        "image": "/images/Web-Personal.png",
+        "technologies": ["React","JavaScript", "SCSS"],
+        "description": "Primer pagina creada para el uso personal, para mostrar mis habilidades y proyectos.",
+        "url": "https://portfolio-omega-beige-53.vercel.app/",
+        "github": "https://github.com/ignaciothompson/portfolio"
+    }
+]
+

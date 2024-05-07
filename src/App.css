@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'Quicksand-Thin';
+  src: url('./assets/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./assets/Quicksand-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('./assets/Quicksand-Bold.ttf') format('truetype');
+}
+
+
+:root{
+  --font-color: #141619;
+  --primary-color: #2c2e3a;
+  --secondary-color: #0a21c0;
+  --darker-secondary: #050a44;
+  --background-color: #b3b4bd;
+
+  width: 80%;
+  margin: auto;
+
+  font-family: Quicksand;
+
+  color: var(--font-color)
+}
+
