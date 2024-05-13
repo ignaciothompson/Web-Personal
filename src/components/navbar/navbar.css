@@ -34,6 +34,10 @@
     align-items: center;
 }
 
+.contactLink{
+    text-decoration: none;
+}
+
 .navbarButton.primary{
     width: calc(100px + 50px);
     margin-right: 25px;

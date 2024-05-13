@@ -10,3 +10,16 @@
     margin-top: 50px;
 }
 
+svg.squiggle {
+    position: absolute;
+    top: 50px;
+    left: -350px;
+    width: 100%;
+    height: 2300px;
+    z-index: -1;
+  }
+  
+  svg.squiggle path {
+    stroke-width: 25px;
+  }
+  

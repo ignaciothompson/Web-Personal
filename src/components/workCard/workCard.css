@@ -17,6 +17,7 @@
     position: relative;
     z-index: 1; /* Ensure a base z-index is set */
     transition-delay: 0.5s;
+
 }
 
 
@@ -27,7 +28,7 @@
 
 .workImage{
     width: 630px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .workTitle{

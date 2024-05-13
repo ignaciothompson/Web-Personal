@@ -1,15 +1,11 @@
-import { useEffect } from "react";
-import  works  from "../../db/works.json";
+
+import  API  from "../../db/works.json";
 import './workCard.css'
 
 const WorkCard = () => {
-    useEffect(() => {
-        console.log(works)
-    }, [])
-
   return (
     <div className='worksContainer'>
-      {works.map((work) => (
+      {API.works.content.map((work) => (
         <>
         <div className='workCard'>
             <div className='workImageContainer'>

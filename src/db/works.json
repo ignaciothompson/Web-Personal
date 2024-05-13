@@ -1,39 +1,142 @@
-[
-    {
-        "id": 1,
-        "name": "Web e-commerce Present",
-        "image": "/images/Present.png",
-        "technologies": ["React", "Typescript", "CSS", "API Managment"],
-        "description": "Pagina creada para la empresa Present por la cual se toman pedidos.",
-        "url": "https://present-rouge.vercel.app/",
-        "github": "https://github.com/ignaciothompson/Present"
+{
+    "works": {
+        "id": 1, 
+        "name": "Works",
+        "content": [
+            {
+                "id": 1,
+                "name": "Web e-commerce Present",
+                "image": "/images/workImages/Present.png",
+                "technologies": ["React", "Typescript", "CSS", "API Managment"],
+                "description": "Pagina creada para la empresa Present por la cual se toman pedidos.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present"
+            },
+            {
+                "id": 2,
+                "name": "Redata",
+                "image": "/images/workImages/Redata.png",
+                "technologies": ["HTML", "CSS", "JavaScript", "API Managment", "Configuración de sistema"],
+                "description": "Repositorio de datos abiertos de investigación de Uruguay, creado por la ANII.",
+                "url": "https://redata.anii.org.uy/",
+                "github": null
+            },
+            {
+                "id": 3,
+                "name": "Rick and Morty Wiki",
+                "image": "/images/workImages/Rick-and-Morty.png",
+                "technologies": ["React","JavaScript", "CSS", "Bootstrap", "API Management"],
+                "description": "Wiki de los personajes de Rick and Morty, con toda la informacion de cada uno de ellos.",
+                "url": "https://rick-and-morty-wiki-ivory.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Rick-and-Morty-Wiki"
+            },
+            {
+                "id": 4,
+                "name": "Web Personal",
+                "image": "/images/workImages/Web-Personal.png",
+                "technologies": ["React","JavaScript", "SCSS"],
+                "description": "Primer pagina creada para el uso personal, para mostrar mis habilidades y proyectos.",
+                "url": "https://portfolio-omega-beige-53.vercel.app/",
+                "github": "https://github.com/ignaciothompson/portfolio"
+            }
+        ]
     },
-    {
+    "designs": {
         "id": 2,
-        "name": "Redata",
-        "image": "/images/Redata.png",
-        "technologies": ["HTML", "CSS", "JavaScript", "API Managment", "Configuración de sistema"],
-        "description": "Repositorio de datos abiertos de investigación de Uruguay, creado por la ANII.",
-        "url": "https://redata.anii.org.uy/",
-        "github": null
-    },
-    {
-        "id": 3,
-        "name": "Rick and Morty Wiki",
-        "image": "/images/Rick-and-Morty.png",
-        "technologies": ["React","JavaScript", "CSS", "Bootstrap", "API Management"],
-        "description": "Wiki de los personajes de Rick and Morty, con toda la informacion de cada uno de ellos.",
-        "url": "https://rick-and-morty-wiki-ivory.vercel.app/",
-        "github": "https://github.com/ignaciothompson/Rick-and-Morty-Wiki"
-    },
-    {
-        "id": 4,
-        "name": "Web Personal",
-        "image": "/images/Web-Personal.png",
-        "technologies": ["React","JavaScript", "SCSS"],
-        "description": "Primer pagina creada para el uso personal, para mostrar mis habilidades y proyectos.",
-        "url": "https://portfolio-omega-beige-53.vercel.app/",
-        "github": "https://github.com/ignaciothompson/portfolio"
+        "name": "Designs",
+        "content": [
+            {
+                "id": 1,
+                "name": "Pagina Recetas",
+                "image": "/images/designImages/recipeTemplate.png",
+                "description": "Pagina creada para la empresa Present por la cual se toman pedidos.",
+                "url": "https://ignaciothompson.github.io/RecipeTemplate/",
+                "github": "https://github.com/ignaciothompson/RecipeTemplate",
+                "primary":true
+            },
+            {
+                "id": 2,
+                "name": "Formulario",
+                "image": "/images/Present.png",
+                "description": "Formulario interactivo para recopilación de datos de usuarios, con multiples pasos",
+                "url": "https://ignaciothompson.github.io/FyloTemplate/",
+                "github": "https://github.com/ignaciothompson/FyloTemplate",
+                "primary":true
+            },
+            {
+                "id": 3,
+                "name": "Fylo Security Landing Page",
+                "image": "/images/designImages/FyloSecurity.png",
+                "description": "Página de aterrizaje diseñada para una empresa de seguridad digital.",
+                "url": "https://ignaciothompson.github.io/FyloTemplate/",
+                "github": "https://github.com/ignaciothompson/FyloTemplate",
+                "primary":true
+            },
+            {
+                "id": 4,
+                "name": "Pagina Recetas",
+                "image": "/images/Present.png",
+                "description": "Sitio web para visualizar y compartir recetas de cocina.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            },
+            {
+                "id": 5,
+                "name": "Formulario",
+                "image": "/images/Present.png",
+                "description": "Formulario interactivo para recopilación de datos de usuarios.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            },
+            {
+                "id": 6,
+                "name": "Landing Page",
+                "image": "/images/Present.png",
+                "description": "Página de aterrizaje diseñada para captar la atención de los visitantes.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            },
+            {
+                "id": 7,
+                "name": "Pagina Recetas",
+                "image": "/images/Present.png",
+                "description": "Sitio web para visualizar y compartir recetas de cocina.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            },
+            {
+                "id": 8,
+                "name": "Formulario",
+                "image": "/images/Present.png",
+                "description": "Formulario interactivo para recopilación de datos de usuarios.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            },
+            {
+                "id": 9,
+                "name": "Landing Page",
+                "image": "/images/Present.png",
+                "description": "Página de aterrizaje diseñada para captar la atención de los visitantes.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            },
+            {
+                "id": 10,
+                "name": "Landing Page",
+                "image": "/images/Present.png",
+                "description": "Página de aterrizaje diseñada para captar la atención de los visitantes.",
+                "url": "https://present-rouge.vercel.app/",
+                "github": "https://github.com/ignaciothompson/Present",
+                "primary":false
+            }
+        ]
     }
-]
+}
+
 

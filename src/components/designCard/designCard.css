@@ -1,0 +1,88 @@
+.designContainer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  z-index: 11;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 280px;
+  width: 500px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  left: 20px;
+  top: 15px;
+  margin-bottom: 0;
+}
+
+.designImage{
+    width: 90%;
+    height: 100px;
+}
+
+.description{
+    color: white;
+    height: fit-content;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    margin-bottom: 0;
+}
+
+.designLinks{
+    position: relative;
+    left: 20px;
+    top: -25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.designLink{
+    width: 100%;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.designLinkIcon{
+    width: 16px;
+    margin-left: 10px;
+}
+
+.designLink:hover{
+    text-decoration: underline;
+}

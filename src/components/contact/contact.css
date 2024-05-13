@@ -1,0 +1,146 @@
+.contactContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    padding: 25px 10px 25px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactText{
+    width: calc(40% - 50px);
+    display: flex;
+    flex-wrap: wrap;
+
+    p{
+        color: white;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 25px;
+    }
+}
+
+.contactTitle{
+    color: white;
+    font-family: Quicksand;
+    font-size: 42px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.contactForm{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    font-family: inherit;
+}
+
+.inputGroup{
+    width: calc(50% - 25px);
+    display: flex;
+    flex-wrap: wrap;
+    
+    label{
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.contactInput{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.inputGroup.message{
+    margin-left: 15px;
+    width: 100%;
+}
+
+.contactMessage{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+.contactInput, .contactMessage{
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.contactInput:focus::placeholder {
+    color: transparent;
+}
+
+
+.contactSubmit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+    color: var(--primary-color);
+    font-family: Quicksand-Bold;
+    font-size: 18px;
+    border-radius: 5px;
+    background: white;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .contactSubmit:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: var(--secondary-color);
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  .contactSubmit:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  .contactSubmit span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contactSubmit:hover span {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
