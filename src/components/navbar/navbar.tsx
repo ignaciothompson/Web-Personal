@@ -106,6 +106,16 @@ const Navbar = () => {
                 <img src={"/icons/arrowBlack.svg"} alt="arrow" className="arrow" />
               )}
             </Link>
+            {location.pathname !== '/contact' && (
+                <Link to="/contact" className="menuLink contact" onClick={handleMenu}>
+                Contacto
+                {location.pathname === '/contact' ? (
+                  <img src={"/icons/pointBlack.svg"} alt="point" className="point" />
+                ) : (
+                  <img src={"/icons/arrowBlack.svg"} alt="arrow" className="arrow" />
+                )}
+              </Link>
+            )}
           </div>
         </div>
       </div>

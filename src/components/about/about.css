@@ -30,3 +30,34 @@
 .textContainer:last-child{
     margin-right: 0px;
 }
+
+
+@media (max-width: 1280px) {
+    .aboutContainer{
+        width: 95%;
+    }
+
+    .textContainer{
+        width: calc(33% - 25px);
+        margin-right: 25px;
+
+        p{
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .aboutContainer{
+        width: 95%;
+        margin: 0;
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .textContainer{
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+    }
+}
+

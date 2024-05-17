@@ -16,13 +16,13 @@
         "id": 3,
         "name": "TypeScript",
         "icon": "/icons/skills/typescript.svg",
-        "experience": "Tengo 1 año de experiencia utilizando TypeScript para el desarrollo web, aplicaciones móviles y de escritorio, con el objetivo de mejorar el rendimiento y la eficiencia de las aplicaciones."
+        "experience": "Tengo 1 año de experiencia utilizando TypeScript para el desarrollo web, con el objetivo de mejorar el rendimiento y la eficiencia de las aplicaciones."
     },
     {
         "id": 4,
         "name": "CSS",
         "icon": "/icons/skills/css.svg",
-        "experience": "Tengo 3 años de experiencia utilizando CSS para el desarrollo web y de aplicaciones móviles, logrando crear diseños atractivos y fáciles de usar para el usuario."
+        "experience": "Tengo 3 años de experiencia utilizando CSS para el desarrollo web, logrando crear diseños atractivos y fáciles de usar para el usuario."
     }, 
     {
         "id": 5,

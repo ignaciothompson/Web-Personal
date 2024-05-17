@@ -4,6 +4,7 @@
     width: 80%;
     height: 80px;
     margin: auto;
+    /* margin-top: 10px; */
     position: fixed;
     top: 0;
     padding-top: 10px;
@@ -234,6 +235,30 @@
         display: block;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
+    }
+}
+
+.menuLink.contact{
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .navbarButton.contact{
+        display: none;
+    }
+
+    .menuLink.contact{
+        display: block;
+    }
+
+    .navbarTitle{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar{
+        width: 65%;
     }
 }
 

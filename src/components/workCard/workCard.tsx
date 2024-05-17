@@ -3,11 +3,18 @@ import  API  from "../../db/works.json";
 import './workCard.css'
 
 const WorkCard = () => {
+
+  const handleTouch = (event: React.MouseEvent<HTMLDivElement>) => {
+    if(window.innerWidth < 450){
+      event.currentTarget.classList.toggle("touch");
+    }
+  }
+
   return (
     <div className='worksContainer'>
       {API.works.content.map((work) => (
         <>
-        <div className='workCard'>
+        <div className='workCard' onClick={handleTouch}>
             <div className='workImageContainer'>
                 <img src={work.image} alt={work.name} className='workImage'/>
             </div>

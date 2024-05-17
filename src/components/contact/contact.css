@@ -144,3 +144,11 @@
       transform: scale(1);
     }
   }
+
+
+@media (max-width: 1280px) {
+    .contactContainer{
+        width: 95%;
+    }
+}
+

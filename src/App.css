@@ -32,3 +32,10 @@
 
   overflow-x: hidden;
 }
+
+@media (max-width: 450px) {
+  :root{
+    width: 90%;
+    overflow-x: hidden;
+  }
+}

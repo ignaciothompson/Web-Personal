@@ -1,25 +1,44 @@
-.content{
-    margin-top: 100px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: rgba(255, 0, 0, 0.178); */
+.content {
+  margin-top: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: rgba(255, 0, 0, 0.178); */
 }
 
-.container{
-    margin-top: 50px;
+.container {
+  margin-top: 50px;
 }
 
 svg.squiggle {
-    position: absolute;
-    top: 50px;
-    left: -350px;
-    width: 100%;
-    height: 2300px;
-    z-index: -1;
+  position: absolute;
+  top: 50px;
+  left: -350px;
+  width: 100%;
+  height: 2300px;
+  z-index: -1;
+}
+
+svg.squiggle path {
+  stroke-width: 20px;
+}
+
+@media (max-width: 1280px) {
+  svg.squiggle {
+    left: -150px;
   }
-  
+
   svg.squiggle path {
-    stroke-width: 25px;
+    stroke-width: 15px;
   }
-  
+}
+
+@media (max-width: 450px) {
+  .container {
+    margin-top: 20px;
+  }
+  .descriptionTitle {
+    font-size: 30px;
+  }
+}
+
