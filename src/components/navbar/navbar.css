@@ -251,6 +251,10 @@
         display: block;
     }
 
+    .navbar{
+        width: 65%;
+    }
+
     .navbarTitle{
         font-size: 12px;
     }

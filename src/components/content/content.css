@@ -40,5 +40,8 @@ svg.squiggle path {
   .descriptionTitle {
     font-size: 30px;
   }
+  svg.squiggle {
+    display: none;
+  }
 }
 
